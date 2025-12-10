@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RFID Təqdimatı | ScanBox RFID System</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="https://emkotech.166tech.com/uploads/38514308.webp" type="image/webp" />
+</head>
+<body>
+
+  <!-- 🔹 Sol Naviqasiya İkonları 
+  <nav class="side-nav" id="sideNav">
+    <a href="#giris" class="text-btn active" title="Giriş"><span>Giriş</span></a>
+    <a href="#usullar" class="text-btn" title="RFID üsulları"><span>Növlər</span></a>
+    <a href="#tetbiq" class="text-btn" title="Tətbiq-sahələri"><span>Tətbiqi</span></a>
+    <a href="#bizim-hell" class="text-btn" title="Bizim həll"><span>Bizim həll</span></a>
+    <a href="#arxitektura" class="text-btn" title="Arxitektura"><span>Arxitektura</span></a>
+    <a href="#tesekkur" class="text-btn" title="Əlaqə"><span>Əlaqə</span></a>
+  </nav>
+-->
+  <header>
+    <a rel="noopener">
+      <img src="ScanBox.png" alt="Logo" class="logo">
+    </a>
+    <h1>RFID Təqdimatı</h1>
+  </header>
+
+  <!-- GİRİŞ -->
+  <section class="section" id="giris">
+    <h2>Giriş: RFID texnologiyası nədir və necə işləyir</h2>
+    <p>
+      Müasir müəssisələrdə inventar, avadanlıq və materialların dəqiq və səmərəli idarə olunması olduqca vacibdir. Ənənəvi metodlar — o cümlədən barkod sistemi və ya əl ilə sayım — həm zaman baxımından qeyri-effektivdir, həm də insan amilindən qaynaqlanan səhvlərə açıqdır.
+      Bu problemləri aradan qaldırmaq üçün <strong>RFID (Radio Frequency Identification)</strong> — yəni
+      <strong>Radio Dalğaları ilə Tanıma Texnologiyası</strong> tətbiq olunur.
+    </p>
+    <p>
+      RFID texnologiyası vasitəsilə hər bir obyektə <strong>RFID etiket (tag)</strong> yerləşdirilir.
+      Bu etiketlər radio siqnalları vasitəsilə RFID oxuyucular tərəfindən tanınır və məlumat serverə və ya idarəetmə
+      sisteminə ötürülür. Beləliklə, obyektlərin <strong>yerini</strong>, <strong>hərəkət tarixçəsini</strong> və
+      <strong>mövcud vəziyyətini</strong> real vaxtda izləmək mümkündür.
+    </p>
+  </section>
+
+  <!-- ÜSULLAR -->
+  <section class="section" id="usullar">
+    <h2>RFID texnologiyasının iki tətbiq üsulu</h2>
+    <p>RFID sistemi iki fərqli oxuma üsulu ilə işləyə bilər və hər birinin öz üstünlükləri var 👇</p>
+
+    <h3>1️⃣ Stasionar (Sabit) UHF antenlər</h3>
+    <ul>
+      <li>Mağaza, anbar və ya müəssisə daxilində müəyyən nöqtələrdə quraşdırılır.</li>
+      <li>Ətrafda olan RFID tag-ları avtomatik şəkildə oxuyur.</li>
+      <li>Heç bir insan müdaxiləsi olmadan inventarların real vaxtda hərəkəti və mövqeyi izlənir.</li>
+      <li>Sistem itkin, səhv yerdə qalmış və ya yer dəyişmiş inventarları dərhal aşkarlayır.</li>
+      <li>Çoxlu sayda obyekti eyni anda oxuma imkanı verir.</li>
+    </ul>
+
+    <div class="images">
+      <figure class="image-box">
+        <img src="https://www.cykeorfid.com/wp-content/uploads/2025/04/hgdjfgkhfkg.jpg" alt="Stasionar UHF anten" loading="lazy">
+      </figure>
+      <figure class="image-box">
+        <img src="https://www.srkinnovations.com/cdn/shop/files/SRK-SYMD6L-01_2048x2048.jpg?v=1693651540" alt="UHF Anten" loading="lazy">
+      </figure>
+      <figure class="image-box">
+        <img src="https://www.nedapidentification.com/wp-content/uploads/2023/01/RFID1-1.jpg" alt="Nedap Access Control" loading="lazy">
+      </figure>
+    </div>
+
+    <p><strong>📌 Üstünlükləri:</strong></p>
+    <ul>
+      <li>Tam avtomatlaşdırılmış nəzarət</li>
+      <li>Davamlı və real vaxt monitorinqi</li>
+      <li>Oğurluq və itkilərin operativ aşkarlanması</li>
+      <li>Əmək və vaxt qənaəti</li>
+    </ul>
+
+    <h3>2️⃣ Əl terminalları (Handheld Reader-lər)</h3>
+    <ul>
+      <li>Mobil cihazlar olub, əməkdaş tərəfindən idarə olunur.</li>
+      <li>Operator inventar üzərindəki etiketi yaxınlaşdıraraq oxuyur və məlumatı sistemə göndərir.</li>
+      <li>Əl terminalları sayım, yoxlama, yeni inventar əlavə etmə və “radar funksiyası” ilə axtarış üçün istifadə olunur.</li>
+      <li>Offline və Wi-Fi rejimlərində işləyə bilər.</li>
+    </ul>
+
+    <div class="images">
+      <figure class="image-box">
+        <img src="https://nwzimg.wezhan.net/contents/sitefiles3606/18032615/images/10483351.jpg" alt="Əl Terminalı" loading="lazy">
+      </figure>
+      <figure class="image-box">
+        <img src="https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/c6c4416206974e89b0531e378858f44d~.jpeg" alt="RFID Reader Device" loading="lazy">
+      </figure>
+    </div>
+
+    <div class="module">
+      <h2>💡 RFID Sistemlərinin Üstünlükləri</h2>
+      <ul>
+        <li>Tam avtomatlaşdırılmış nəzarət və hesabat mexanizmi</li>
+        <li>Davamlı və real vaxt monitorinqi</li>
+        <li>Oğurluq və itkilərin operativ aşkarlanması</li>
+        <li>Əmək və vaxt qənaəti</li>
+        <li>Əl ilə sayım xətalarının qarşısını alır</li>
+        <li><strong>🔗 API səviyyəsində inteqrasiya:</strong> ERP/anbar/maliyyə sistemləri ilə məlumat mübadiləsi.</li>
+        <li><strong>💾 Sinxron məlumat paylaşımı:</strong> İnventarizasiya məlumatları digər sistemlərlə avtomatik sinxronlaşdırılır.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TƏTBİQ SAHƏLƏRİ -->
+  <section class="section" id="tetbiq">
+    <h2>🛰️ RFID Texnologiyasının Tətbiq Sahələri</h2>
+    <p>
+      RFID texnologiyası bir çox sahədə izləmə, uçot və təhlükəsizlik məqsədilə tətbiq olunur.
+      Əsas istiqamətlər bunlardır:
+    </p>
+
+    <div class="app-fields">
+
+      <div class="field-card two-column">
+        <div class="col-text">
+          <h3>🏭 İstehsalat və Sənaye</h3>
+          <p>RFID sistemləri istehsal müəssisələrində xammalın, avadanlıqların və məhsulların hərəkətini izləməyə, prosesləri avtomatlaşdırmağa imkan verir.</p>
+          <ul>
+            <li>Xammal və yarımfabrikatların hərəkətinin izlənməsi</li>
+            <li>Avadanlıqların texniki xidmət tarixçəsinin saxlanması</li>
+            <li>Hazır məhsulun anbardan çıxışının avtomatlaşdırılması</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="https://www.intellistride.com/wp-content/uploads/2024/11/How-USA-RFID-Manufacturers-Are-Revolutionizing-Supply-Chain-Management.webp" alt="İstehsalat və Sənaye" loading="lazy">
+        </div>
+      </div>
+
+      <div class="field-card two-column">
+        <div class="col-text">
+          <h3>🏪 Pərakəndə Ticarət və Mağazalar</h3>
+          <p>Mağazalarda RFID malların oğurluğa qarşı qorunması və real vaxtda inventar səviyyəsinin izlənməsi üçün istifadə olunur.</p>
+          <ul>
+            <li>Malların oğurluğa qarşı mühafizəsi</li>
+            <li>Real vaxtda inventar səviyyəsinin izlənməsi</li>
+            <li>Kassadan keçən məhsulların avtomatik tanınması</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="https://cpcongroup.com/wp-content/uploads/2024/08/Walmart-RFID-Mandate-5-1024x585.webp" alt="Pərakəndə Ticarət və Mağazalar" loading="lazy">
+        </div>
+      </div>
+
+      <div class="field-card two-column">
+        <div class="col-text">
+          <h3>🚚 Anbar və Logistika</h3>
+          <p>RFID texnologiyası göndərişlərin, paletlərin və konteynerlərin izlənməsində, həmçinin daşınma zamanı obyektlərin izlənməsində tətbiq olunur.</p>
+          <ul>
+            <li>Göndərişlərin və paletlərin izlənməsi</li>
+            <li>Giriş-çıxış nəzarətinin avtomatlaşdırılması</li>
+            <li>Daşınma zamanı obyektlərin yerini izləmə</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="https://cpcongroup.com/wp-content/uploads/2024/06/rfid-in-supply-chain-management-3-1024x585.webp" alt="Anbar və Logistika" loading="lazy">
+        </div>
+      </div>
+
+      <div class="field-card two-column">
+        <div class="col-text">
+          <h3>🧑‍💼 Ofis və Müəssisə İdarəçiliyi</h3>
+          <p>RFID sistemləri ofis və müəssisələrdə əşyaların uçotu, icazə sistemləri və sənəd dövriyyəsinin izlənməsi üçün istifadə olunur.</p>
+          <ul>
+            <li>Əşyaların və avadanlıqların uçotu</li>
+            <li>İşçi girişi və icazə sistemləri</li>
+            <li>Sənəd dövriyyəsinin izlənməsi</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="https://supplychaingamechanger.com/wp-content/uploads/2024/11/InvMgmtTechTools.webp" alt="Ofis və Müəssisə İdarəçiliyi" loading="lazy">
+        </div>
+      </div>
+
+      <div class="field-card two-column">
+        <div class="col-text">
+          <h3>🏥 Tibbi və Klinik Sahələr</h3>
+          <p>RFID texnologiyası xəstəxanalarda avadanlıq, dərman və pasiyent məlumatlarının izlənməsini təmin edir.</p>
+          <ul>
+            <li>Avadanlıq və dərman ehtiyatlarının idarə olunması</li>
+            <li>Pasiyent qolbaqları vasitəsilə kimlik və xidmət izlənməsi</li>
+            <li>Sterilizasiya proseslərinin monitorinqi</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="https://rfid.aucxis.com/webp-express/webp-images/uploads/sites/4/2023/10/RFID-Diagram-Healthcare-Pharma-EN-2048x1429.png.webp" alt="RFID Healthcare" loading="lazy">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BİZİM HƏLL -->
+  <section class="section" id="bizim-hell">
+    <h2>      <img src="AZ.png" alt="RFID Healthcare" loading="lazy"> Bizim Həll – Yerli RFID Proqram Təminatı <span class="highlight">“ScanBox RFID System”</span></h2>
+
+    <p><strong>ScanBox</strong> — müəssisələrdə avadanlıq, inventar və materialların real vaxtda izlənməsi üçün tam yerli proqram təminatıdır.</p>
+    <p>Sistem <strong>IT komandamız</strong> tərəfindən hazırlanmış və artıq müxtəlif müəssisələrdə uğurla tətbiq edilmişdir.</p>
+    <p>Bu həll iki əsas platformadan ibarətdir:</p>
+    <ul class="hell-list">
+      <li><strong>🌐 Web versiya:</strong> idarəetmə paneli, hesabatlar, izləmə xəritəsi və analitik modullar.</li>
+      <li><strong>📱 Mobil versiya:</strong> real vaxtda oxuma, sayım, radar funksiyası, hesabatlar.</li>
+    </ul>
+    <p>Lokal tələblərə tam uyğunlaşdırılmış <strong>RFID həllidir.</strong></p>
+
+    <div class="images mobile-app-view">
+      <div class="phone-frame">
+        <div class="notch"></div>
+        <img src="Mob1.jpg" alt="ScanBox Mobile App" class="app-screen">
+      </div>
+      <div class="phone-frame">
+        <div class="notch"></div>
+        <img src="Mob2.jpg" alt="RFID Monitor Interface" class="app-screen">
+      </div>
+    </div>
+
+
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh; /* çox boşluq olmasın */
+  margin: 0 auto;
+  padding: 40px 0; /* yuxarı-aşağı az boşluq */
+">
+  <div class="image-wrapper" 
+       style="position:relative; display:inline-block; width:800px; 
+              height:auto; cursor:pointer; transition:transform 0.3s ease;">
+    <div class="notch" 
+         style="position:absolute; top:0; left:0; right:0; height:10px; 
+                background:rgba(255,255,255,0.15); border-top-left-radius:8px; 
+                border-top-right-radius:8px;">
+    </div>
+    <img src="WebScan.png" alt="RFID Monitor Interface" 
+         class="app-screen" 
+         style="width:100%; height:auto; border-radius:12px; 
+                box-shadow:0 4px 12px rgba(0,0,0,0.4); transition:all 0.3s ease;">
+    <div class="hover-overlay" 
+         style="position:absolute; inset:0; background:rgba(0,0,0,0.2); 
+                border-radius:12px; opacity:0; transition:opacity 0.3s ease;">
+    </div>
+  </div>
+</div>
+
+<style>
+.image-wrapper:hover {
+  transform: scale(1.05);
+}
+.image-wrapper:hover .hover-overlay {
+  opacity: 1;
+}
+.image-wrapper:hover .app-screen {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+</style>
+
+
+
+
+  </section>
+
+  <!-- ARXİTEKTURA -->
+  <section class="section" id="arxitektura">
+    <h2>🧩 ScanBox Proqramının Ümumi Arxitekturası</h2>
+    <p><strong>ScanBox</strong> aşağıdakı əsas modullardan ibarətdir:</p>
+
+    <div class="module">
+      <h3>🏢 Struktur İdarəetməsi</h3>
+      <ul>
+        <li>İstənilən formalı strukturlar (şöbə, bina, bölmə və s.) yaradılır.</li>
+        <li>Onların qarşılıqlı asılılıqları və əlaqələri qurulur.</li>
+        <li>Hər struktur öz inventarına, otaqlarına və cavabdeh şəxslərə malik olur.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>📦 Inventar və Material Qeydiyyatı</h3>
+      <ul>
+        <li>Materialın növü, ölçüsü, çəkisi, tərkibi, istehsalçı və təchizatçı məlumatları daxil edilir.</li>
+        <li>Mədaxil prosesi (daxilolma, yerləşmə məkanı və cavabdeh şəxs) tam sistemləşdirilib.</li>
+        <li>Quruma məxsus inventarların qeydiyyatı və tarixçə izlənməsi aparılır.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>⚙️ Xüsusiyyətlər haqqında</h3>
+      <p>İnventar əlavə edilərkən eyni inventarın fərqli xüsusiyyətlərinin tətbiqi mümkündür.</p>
+      <p><strong>“İnventar və material məlumatlarının tam və detallı qeyd edilməsi”</strong> sistemi bu mərhələdə əsas rol oynayır:</p>
+      <ul>
+        <li>Materialın növü və kateqoriyası qeyd olunur.</li>
+        <li>Fiziki və texniki xüsusiyyətləri (ölçü, çəki, tərkib və s.) daxil edilir.</li>
+        <li>İstifadə məqsədi və tətbiq sahəsi göstərilir.</li>
+        <li>Saxlanma və istifadə şərtləri təyin edilir.</li>
+        <li>Təchizat və istehsalçı məlumatları əlavə olunur.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>🧩 Dəstlər haqqında</h3>
+      <p>İnventarların daha dərin səviyyədə idarə olunması üçün sistemdə <strong>dəstlər (komplektlər)</strong> anlayışı mövcuddur.</p>
+      <ul>
+        <li>Bir inventar bir neçə hissədən (detaldan) ibarət ola bilər və bu hissələr ayrıca uçota alınır.</li>
+        <li>Hər bir detal öz seriya nömrəsi, vəziyyəti və texniki göstəriciləri ilə sistemdə saxlanılır.</li>
+        <li>Dəstlər üzərində əməliyyatlar (təchizat, təhkim, dəyişmə, silinmə) bütöv və ya hissə-hissə şəkildə aparıla bilər.</li>
+        <li>Dəst tərkibindəki dəyişikliklər (əlavə olunan və ya çıxarılan hissələr) tarixçə üzrə izlənir.</li>
+        <li>Bu yanaşma inventarların istismar dövrlərini və texniki xidmət proseslərini daha şəffaf edir.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>🔄 Təhkim və Transfer Mexanizmi</h3>
+      <p>Təhkim və ya transfer zamanı sistem inventarın hərəkətini tam şəkildə qeydə alır və vizual nəzarət imkanı yaradır.</p>
+      <ul>
+        <li>İstifadəçilər və bölmələr üzrə inventar bölgüsü aparılır.</li>
+        <li>Transfer zamanı əməliyyatın icraçısı, vaxtı və təyinat nöqtəsi loglaşdırılır.</li>
+        <li>Tam audit izi saxlanılır — kim, nə zaman, hansı inventarı hərəkət etdirib, sistemdə görünür.</li>
+        <li><strong>📸 Əlavə imkan:</strong> Əməliyyat zamanı <strong>əl terminalı vasitəsilə inventarın şəkli çəkilərək sistemə əlavə oluna bilər.</strong></li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>📊 Tarixçə və Vizual İzləmə</h3>
+      <ul>
+        <li>Hər bir inventarın keçmiş və cari yerləşmə tarixi ardıcıllıqla göstərilir.</li>
+        <li>Şəkillər və vizual materiallar tarixə əsasən təqdim olunur.</li>
+        <li>Qrafik və xətti ardıcıllıqla izləmə mexanizmi yaradılıb (timeline görünüşü).</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>🗺️ Otaq və Məkan Xəritəsi</h3>
+      <ul>
+        <li>Hər otaq üçün sahə, mərtəbə, kod və ölçü kimi parametrlər qeyd olunur.</li>
+        <li>Plan (sxem) üzərindən inventarların dəqiq yerləşmə nöqtələri göstərilir.</li>
+        <li>İnventar dəyişiklikləri baş verdikdə plan avtomatik yenilənir.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>🎯 Radar Funksiyası</h3>
+      <ul>
+        <li>Əl terminalı vasitəsilə sistemdə istənilən inventar seçilir.</li>
+        <li>Terminal yaxınlaşdıqca siqnal gücü artır və istiqamət üzrə radar kimi işləyir.</li>
+        <li>Beləliklə, konkret əşyalar fiziki mühitdə tez tapılır.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h3>🔗 RFID Oxuyucu ilə Əlavə və Tanıma</h3>
+      <ul>
+        <li>Yeni inventarlar RFID etiketi ilə tanıdılaraq sistemə əlavə olunur.</li>
+        <li>Hər oxuma əməliyyatı serverə real vaxtda ötürülür.</li>
+        <li>Sistem həm offline, həm də Wi-Fi rejimində işləyə bilir.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- VİDEO -->
+  <section class="section video-section" id="video">
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="assets/video/intro.mp4" type="video/mp4">
+        Brauzeriniz video oxutmanı dəstəkləmir.
+      </video>
+    </div>
+  </section>
+
+  <!-- ANTEN MODULU -->
+  <section class="section" id="anten-modulu">
+    <h2>📡 Anten Modulu</h2>
+
+    <div class="module">
+      <h4>📍 Real-Time Hərəkət İzləmə</h4>
+      <ul>
+        <li>Struktur daxilində quraşdırılmış sabit UHF antenlər inventarların hərəkətini anlıq izləyir.</li>
+        <li>Əgər inventar otaqdan çıxarılarsa və ya yerini dəyişərsə, sistem bunu dərhal qeydə alır.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h4>🛰️ Anten və Server Sinxronizasiyası</h4>
+      <ul>
+        <li>Məlumatlar lokal serverlərdə və ya cloud platformalarda saxlanılır.</li>
+        <li>Hər antenin məlumat ötürmə vaxtı və hadisə jurnalları (log) saxlanılır.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h4>♻️ Avtomatik Yenilənmə</h4>
+      <ul>
+        <li>Hər hansı otaq və ya strukturda dəyişiklik olduqda, sistem plan üzərində avtomatik yeniləyir.</li>
+        <li>Bu, inventar xəritəsində vizual şəkildə dərhal əks olunur.</li>
+      </ul>
+    </div>
+
+    <div class="module">
+      <h4>☁️ Platformalar</h4>
+      <ul>
+        <li><strong>Veb versiya:</strong> Bütün məlumatların idarəsi və hesabatlar üçün.</li>
+        <li><strong>Mobil versiya:</strong> Əl terminalları ilə axtarış, sayım, yoxlama və radar funksiyaları.</li>
+        <li><strong>Server:</strong> Antenlərdən gələn məlumatların mərkəzləşdirilmiş şəkildə saxlanması.</li>
+      </ul>
+    </div>
+
+    <div style="text-align:center; margin:40px auto;">
+      <figure style="display:inline-block; margin:0;">
+        <img 
+          src="https://cpcongroup.com/wp-content/uploads/2024/06/rfid-in-supply-chain-management.webp"
+          alt="RFID Reader Device"
+          loading="lazy"
+          style="width:80%; max-width:800px; height:auto; border-radius:15px; border:2px solid rgba(255,255,255,0.4); box-shadow:0 0 25px rgba(0,0,0,0.4);">
+      </figure>
+    </div>
+  </section>
+
+  <!-- TƏŞƏKKÜR / ƏLAQƏ -->
+  <section class="section" id="tesekkur">
+    <h2>🙏 Təşəkkür edirik!</h2>
+    <p>“ScanBox RFID System” təqdimatına vaxt ayırdığınız üçün təşəkkür edirik.  Sual və ya əlavə məlumat üçün bizimlə əlaqə saxlaya bilərsiniz.</p>
+ <!--
+    <div class="contact-info">
+      <p>📞 <strong>Əlaqə nömrəsi:</strong> <a href="tel:+994553182626">+994 55 318 26 26</a></p>
+      <p>📞 <strong>Əlaqə nömrəsi:</strong> <a href="tel:+994775602600">+994 77 560 26 00</a></p>
+      <p>📧 <strong>E-poçt:</strong> <a href="mailto:info@emkoTech.az">info@emkoTech.az</a></p>
+      <p>🌐 <strong>Veb sayt:</strong> <a href="https://EmkoTech.az" target="_blank" rel="noopener">www.EmkoTech.az</a></p>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/company/beitpartners" target="_blank" rel="noopener" title="LinkedIn">
+        <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.facebook.com/beitpartners" target="_blank" rel="noopener" title="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook">
+      </a>
+      <a href="https://emkotech.az/en" target="_blank" rel="noopener" title="EmkoTech">
+        <img src="https://emkotech.166tech.com/uploads/38514308.webp" alt="EmkoTech" class="small-logo">
+      </a>
+    </div>
+-->
+    <p class="thanks-note">© 2025 | Bütün hüquqlar qorunur.</p>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
